@@ -35,7 +35,7 @@ namespace cosmos_distributed_cache.Controllers
             return Ok(data);
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("{id:int}")]
         public async Task<ActionResult<Post>> GetPost(int id)
         {
             var sw = new Stopwatch();
