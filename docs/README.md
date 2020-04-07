@@ -1,7 +1,5 @@
 # Cosmos Distributed Cache
 
-![cosmosdb](./img/cosmos.png)
-
 This is a simple ASP.NET Core API being used to test using Cosmos as a distributed cache. Packages and resources being used include:
 
 - [Microsoft.Extensions.Caching.Cosmos](https://github.com/Azure/Microsoft.Extensions.Caching.Cosmos)
